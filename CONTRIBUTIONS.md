@@ -12,7 +12,7 @@
 ---
 
 #### Nehantha Sathesh (01551453)
-  * Authored data visualization scripts to generate Normal Q-Q plots, tail probability decay curves, log-return time series, and annual joint-downside distribution charts.
+  * Generated Normal Q-Q plots, tail probability decay curves, log-return time series, and annual joint-downside distribution charts.
 * Programmed the tail frequency evaluations ($|z| > 3$ SD days), theoretical Normal benchmark comparisons, and non-parametric Chebyshev inequality bounds.
 * Implemented joint downside contingency matrices ($2 \times 2$ tables) and conducted statistical significance testing using **Fisher's Exact Test** to assess joint extreme occurrences.
 * **Documentation & Review:**
