@@ -1,6 +1,6 @@
 # Team Contributions Disclosure
 
-**Course:** DS603 Probability for Data Science  
+**Course:** DS603-G1-Probability for Data Science
 **Project:** Beyond the Bell Curve: Extreme Movements in Gold and Oil Returns  
 
 ---
