@@ -24,7 +24,6 @@
   * Conducted sub-period regime shift analyses comparing pre-crisis (2019) vs. crisis (2020) volatility, daily standard deviations, and dynamic correlation shifts ($r = -0.14 \rightarrow +0.10$).
 * **Documentation & Delivery:**
   * Lead author for the final project report structure, narrative interpretations, project limitations (volatility clustering, sample bias, and non-causality), and data ethics compliance guidelines.
-  * Designed and produced the final presentation slide deck (`DS603_GP_01551403_slides.pdf`).
 ---
 
 ## Joint Collaboration & Peer Review
