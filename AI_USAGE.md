@@ -12,9 +12,9 @@ During this project, generative AI tools (Claude/Gemini) were utilized as learni
 
 ## 2. Specific Contributions & Applications
 
-  * Used for clarifying mathematical distributions and discussing key limitations such as volatility clustering and missed model specifications.
+Used for clarifying mathematical distributions and discussing key limitations such as volatility clustering and missed model specifications.
 
 ---
 
 ## 3. Human Verification & Verification Statement
-* **Interpretation & Writing:** All analytical interpretations, key takeaways, and presentation slide contents were reviewed, verified, and authored by the team members.
+All analytical interpretations, key takeaways, and presentation slide contents were reviewed, verified, and authored by the team members.
