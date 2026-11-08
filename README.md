@@ -1,6 +1,5 @@
 # DS603-Group-Project: Beyond-the-Bell-Curve
-- Do daily gold and oil returns exhibit heavier tails than a Normal distribution
-- Do extreme movements in gold and oil occur jointly more often than would be expected under independence?
+- Do daily gold and oil returns exhibit heavier tails than a Normal distribution and do extreme movements in gold and oil occur jointly more often than would be expected under independence?
 
 # Master of Data Science in Economics (MDSE)
 ## Course: DS603-G1-Probability for Data Science
@@ -16,12 +15,14 @@
 ## Beyond the Bell Curve: Extreme Movements in Gold and Oil Returns
 
 ### 1. Research Question
-Do daily gold and oil returns exhibit heavier tails than a Normal distribution, and do extreme movements in gold and oil occur jointly more often than would be expected under independence?
+- Do daily gold and oil returns exhibit heavier tails than a Normal distribution
+- Do extreme movements in gold and oil occur jointly more often than would be expected under independence?
 
 ### 2. Dataset & Cleaning Notes
 * **Data Source:** Daily price data extracted from the LSEG Datastream database (accessed via WRDS) covering the period from **4 January 2000 to 31 December 2025**.
   * **Gold Benchmark:** *Gold Bullion LBM $/t oz DELAY* (Mnemonic: `GOLDBLN`), representing the daily London gold benchmark in USD/troy oz.
   * **Oil Benchmark:** *Crude Oil BFO M1 Europe FOB $/BBI* (Mnemonic: `OILBREN`), representing the daily Brent crude benchmark in USD/barrel.
+    
 * **Data Ingestion & Cleaning:**
   * Raw dataset contained **32,932 price rows**, which was deduplicated to **13,257 rows** to align calendar dates across asset classes.
   * Computed daily log-return series across **6,492 observations** using the transformation: 
