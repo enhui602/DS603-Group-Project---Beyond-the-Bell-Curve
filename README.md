@@ -33,7 +33,7 @@
 * **Parametric vs. Empirical Tail Analysis:** Evaluated empirical daily log-return distributions against fitted Gaussian benchmarks using standardized $z$-scores ($|z| > 3\sigma$).
 * **Non-Parametric Probability Bounds:** Benchmarked observed tail exceedances against theoretical upper bounds derived from **Chebyshev’s Inequality** and **Cantelli’s Inequality** to assess maximum tail risk without assuming normality.
 * **Co-movement & Joint Downside Modeling:** Measured covariance and dynamic correlation. Constructed $2 \times 2$ joint downside contingency tables using 5% tail thresholds and tested for statistical dependence using **Fisher's Exact Test** relative to theoretical independence benchmarks.
-* **Regime Shift & Sub-Period Analysis (Robustness):** Compared extreme return behavior and correlation shifts between the pre-crisis period (**1 Jan 2019 – 31 Dec 2019**) and the COVID-19 disruption period (**1 Jan 2020 – 31 Dec 2020**).
+* **Regime Shift & Sub-Period Analysis (Robustness):** Compared extreme return behavior and correlation shifts between the pre-crisis period (**1 Jan 2019 - 31 Dec 2019**) and the COVID-19 disruption period (**1 Jan 2020 - 31 Dec 2020**).
 
 ### 4. Key Deliverables (Figures & Tables)
 * Summary statistics and the ten largest absolute returns for gold and Brent crude
@@ -48,7 +48,7 @@
 
 ### 5. Key Results
 
-Over 6,492 common trading days (January 2000 – December 2025):
+Over 6,492 common trading days (January 2000 - December 2025):
 
 * **Gold Returns:** Daily standard deviation of 1.06%, skewness of −0.39, and excess kurtosis of 5.56.
 * **Brent Crude Returns:** Daily standard deviation of 2.29%, skewness of −1.13, and excess kurtosis of 27.29, much more volatile and heavier-tailed than gold.
