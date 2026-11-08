@@ -14,7 +14,8 @@
 #### Nehantha Sathesh (01551453)
   * Generated Normal Q-Q plots, tail probability decay curves, log-return time series, and annual joint-downside distribution charts.
 * Programmed the tail frequency evaluations ($|z| > 3$ SD days), theoretical Normal benchmark comparisons, and non-parametric Chebyshev inequality bounds.
-* Implemented joint downside contingency matrices ($2 \times 2$ tables) and conducted statistical significance testing using **Fisher's Exact Test** to assess joint extreme occurrences.
+* Implemented the joint downside contingency matrices (2×2 tables) and ran Fisher's Exact Test to assess whether joint extreme occurrences are statistically significant.
+* Ran the correlation and covariance analysis, including correlation by year and the rolling 252-day correlation
 * **Documentation & Review:**
   * Drafted technical methodology write-ups for statistical tests and probability bounds.
   * Cross-checked report interpretations against mathematical output models.
