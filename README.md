@@ -45,8 +45,23 @@
 * Joint downside extreme tables (contingency table, observed versus independence benchmark) and joint downside days by year
 * Robustness tables: either-direction extremes, threshold and sample-exclusion sensitivity, and 2019 versus 2020 comparison with its chart
 * Final project presentation in `outputs/presentation/` (PDF)
+
+### 5. Key Results
+
+Over 6,492 common trading days (January 2000 – December 2025):
+
+* **Gold Returns:** Daily standard deviation of 1.06%, skewness of −0.39, and excess kurtosis of 5.56.
+* **Brent Crude Returns:** Daily standard deviation of 2.29%, skewness of −1.13, and excess kurtosis of 27.29, much more volatile and heavier-tailed than gold.
+* **Heavy Tails Appear Beyond 3 Standard Deviations:** Both series show fewer moderate extremes than a Normal model at 1 standard deviation, but at 3 standard deviations observed extreme days far exceed the Normal expectation (gold 5.48×, Brent crude 4.45×).
+* **Weak Overall Correlation:** The Pearson correlation between gold and crude returns is 0.1661, a weak positive relationship.
+* **Correlation Is Unstable Over Time:** The strongest years were 2006 ($r = 0.452$), 2008 ($r = 0.450$) and 2022 ($r = 0.383$); the weakest were 2019 ($r = -0.137$), 2016 ($r = -0.073$) and 2002 ($r = -0.008$).
+* **Joint Downside Extremes Exceed Independence:** Joint 5% downside days occurred 41 times against about 16 expected under independence, a ratio of 2.52 (Fisher odds ratio = 2.99, $p < 0.001$).
+* **Robust to Time Dependence:** The circular-shift permutation test, which respects volatility clustering, gives $p = 0.0002$.
+* **Robust to Excluding Crisis Years:** The association survives excluding 2020 (37 joint days) and excluding 2008, 2009 and 2020 (31 joint days), both at $p < 0.001$ for the 5% threshold.
+* **Association, Not Causation:** These results show that extreme days coincide, not that one market drives the other. The Fisher test does not itself account for volatility clustering, which is why the circular-shift permutation test is included.
+
   
-### 5. Project Limitations
+### 6. Project Limitations
 * **Days Are Not Independent:** Volatility clustering means extreme days bunch together in time, making Fisher’s $p$-value overly optimistic.
 * **A Few Outlier Days Drive Crude Statistics:** Crude oil’s extreme kurtosis (27.3) relies heavily on a small handful of 2020 shock days, led by the massive −44% drop on 21 April 2020.
 * **Unconditional Correlation Masks Dynamic Regime Shifts:** The full-sample correlation ($r = 0.17$) hides significant sub-period shifts, moving from −0.14 in 2019 (pre-crisis) to +0.10 in 2020 (crisis).
