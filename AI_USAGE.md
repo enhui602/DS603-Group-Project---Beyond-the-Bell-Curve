@@ -6,7 +6,7 @@
 ---
 
 ## 1. Scope of AI Tools Used
-During this project, generative AI tools (Claude/Gemini) were utilized as learning aids, coding assistants, and technical writing collaborators.
+During this project, generative AI tools (Claude/Gemini/ChatGPT) were utilized as learning aids, coding assistants, and technical writing collaborators.
 
 ---
 
