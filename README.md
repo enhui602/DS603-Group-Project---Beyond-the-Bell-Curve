@@ -2,7 +2,7 @@
 Do daily gold and oil returns exhibit heavier tails than a Normal distribution, and do extreme movements in gold and oil occur jointly more often than would be expected under independence?
 
 # Master of Data Science in Economics (MDSE)
-## Course: DS603 - Data Science & Quantitative Methods
+## Course: DS603-G1-Probability for Data Science
 
 **Group Members:**
 * Nehantha Sathesh (Student ID: 01551453)
