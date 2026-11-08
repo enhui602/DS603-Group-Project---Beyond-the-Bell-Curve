@@ -5,8 +5,8 @@ Do daily gold and oil returns exhibit heavier tails than a Normal distribution, 
 ## Course: DS603 - Data Science & Quantitative Methods
 
 **Group Members:**
-* Toh En Hui (01551403)
-* Nehantha Sathesh
+* Nehantha Sathesh (Student ID: 01551453)
+* Toh En Hui (Student ID: 01551403)
 
 **Repository Link:** [https://github.com/enhui602/DS603-Group-Project---Beyond-the-Bell-Curve](https://github.com/enhui602/DS603-Group-Project---Beyond-the-Bell-Curve)
 
