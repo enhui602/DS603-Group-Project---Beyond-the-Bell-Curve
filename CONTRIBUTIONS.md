@@ -23,7 +23,7 @@
   * Developed the primary data ingestion pipeline to process and clean 32,932 raw LSEG Datastream price rows (13,257 after deduplication), handling gap-spanning dates and constructing the 6,492 daily return series ($r_t = 100 \times \ln(P_t/P_{t-1})$).
   * Conducted sub-period regime shift analyses comparing pre-crisis (2019) vs. crisis (2020) volatility, daily standard deviations, and dynamic correlation shifts ($r = -0.14 \rightarrow +0.10$).
 * **Documentation & Delivery:**
-  * Lead author for the final project report structure, narrative interpretations, project limitations (volatility clustering, sample bias, and non-causality), and data ethics compliance guidelines.
+  * Lead author for the final project report structure, narrative interpretations, project limitations, and data ethics compliance guidelines.
 ---
 
 ## Joint Collaboration & Peer Review
