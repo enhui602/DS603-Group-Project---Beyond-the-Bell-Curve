@@ -40,6 +40,7 @@ Do daily gold and oil returns exhibit heavier tails than a Normal distribution, 
 * **Joint Downside & Scatter Distributions:** Scatter plots of daily return co-movements overlaid with joint 5% extreme threshold quadrants.
 
 ### 5. Project Limitations
-* **Sample Period & Structural Breaks:** The 2000–2025 window includes several macroeconomic regime shifts (2008 GFC, 2020 COVID-19 pandemic) which induce volatility clustering and non-stationary return dynamics.
-* **Data Licensing Restrictions:** Dataset relies on SMU-licensed access to LSEG Datastream via WRDS; raw underlying price feeds cannot be redistributed publicly.
-* **Model Misspecification:** Standard Chebyshev bounds provide conservative maximum limits, while assumption of return independence fails to account for tail dependence and conditional heteroskedasticity (GARCH processes).
+* **Days Are Not Independent:** Volatility clustering means extreme days bunch together in time, making Fisher’s $p$-value overly optimistic.
+* **A Few Outlier Days Drive Crude Statistics:** Crude oil’s extreme kurtosis (27.3) relies heavily on a small handful of 2020 shock days, led by the massive −44% drop on 21 April 2020.
+* **Unconditional Correlation Masks Dynamic Regime Shifts:** The full-sample correlation ($r = 0.17$) hides significant sub-period shifts, moving from −0.14 in 2019 (pre-crisis) to +0.10 in 2020 (crisis).
+* **Association, Not Causation:** Fisher’s exact test confirms that extreme tail days co-occur statistically, but it does not establish that one market causes movement in the other or identify financial transmission mechanisms.
