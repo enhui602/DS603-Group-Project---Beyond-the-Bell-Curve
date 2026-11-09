@@ -12,7 +12,8 @@
 ---
 
 #### Nehantha Sathesh (01551453)
-  * Generated Normal Q-Q plots, tail probability decay curves, log-return time series, and annual joint-downside distribution charts.
+* Collected the daily gold (`GOLDBLN`) and Brent crude (`OILBREN`) price series from LSEG Datastream through WRDS, covering 4 Jan 2000 to 31 Dec 2025.
+* Generated Normal Q-Q plots, tail probability decay curves, log-return time series, and annual joint-downside distribution charts.
 * Programmed the tail frequency evaluations ($|z| > 3$ SD days), theoretical Normal benchmark comparisons, and non-parametric Chebyshev inequality bounds.
 * Implemented the joint downside contingency matrices (2×2 tables) and ran Fisher's Exact Test to assess whether joint extreme occurrences are statistically significant.
 * Ran the correlation and covariance analysis, including correlation by year and the rolling 252-day correlation
